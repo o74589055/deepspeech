@@ -5,8 +5,7 @@ DOCKER_CONTAINER_NAME=asr-deepspeech
 
 WORKSPACE_PATH=$HOME/workspace/deepspeech/src/DeepSpeech
 # run docker
-  docker run --rm \
-    --net=host \
+  docker run --net=host \
     --ipc=host \
     --privileged \
     -v /tmp/.X11-unix:/tmp/.X11-unix:rw \

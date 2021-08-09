@@ -11,6 +11,9 @@ ENV DEEPSPEECH_REPO=https://github.com/mozilla/DeepSpeech.git\
 # Get basic packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-utils \
+    sudo \
+    vim \
+    libasound-dev \
     bash-completion \
     build-essential \
     ca-certificates \
